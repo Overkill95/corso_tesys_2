@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+  <endpoint
+     name="EmployeeServiceImpl"
+     implementation="com.provasoap.service.EmployeeServiceImpl"
+     url-pattern="/wssoap"/>
+
+
+<endpoint
+     name="DepartmentService"
+     implementation="com.provasoap.servicedepartment.DepartmentServiceImpl"
+     url-pattern="/wsdepartment"/>
+     
+     
+</endpoints>
